@@ -8,6 +8,20 @@ Forked from [IlhamFP](https://github.com/ilhamfp/puisi-pantun-generator)
 2. Install everything in `requirements.txt`
 3. Run this command: `python run_generation.py --model_type gpt2 --model_name_or_path gpt2 --prompt <INSERT YOUR PROMPT HERE>`
 
+### Usage
+
+```
+usage: run_generation.py [-h] --model_type MODEL_TYPE --model_name_or_path
+                         MODEL_NAME_OR_PATH [--prompt PROMPT]
+                         [--length LENGTH] [--stop_token STOP_TOKEN]
+                         [--temperature TEMPERATURE]
+                         [--repetition_penalty REPETITION_PENALTY] [--k K]
+                         [--p P] [--padding_text PADDING_TEXT]
+                         [--xlm_language XLM_LANGUAGE] [--seed SEED]
+                         [--no_cuda]
+                         [--num_return_sequences NUM_RETURN_SEQUENCES]
+```
+
 ### Notes on Quickstart
 
 - There are other `--model_type` besides `gpt2`, just search for `MODEL_CLASSES` in `run_generation.py` file.
