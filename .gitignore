@@ -1,2 +1,5 @@
 venv/
 .DS_Store
+
+# Hugging Face's transformers
+transformers
